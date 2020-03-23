@@ -9,3 +9,14 @@ C:\Users\gaffn\source\repos\cis311_assignment7\obj\Debug\assignment7.vbproj.Gene
 C:\Users\gaffn\source\repos\cis311_assignment7\obj\Debug\assignment7.exe
 C:\Users\gaffn\source\repos\cis311_assignment7\obj\Debug\assignment7.xml
 C:\Users\gaffn\source\repos\cis311_assignment7\obj\Debug\assignment7.pdb
+C:\Users\gaffn\source\repos\assignment7\bin\Debug\assignment7.exe.config
+C:\Users\gaffn\source\repos\assignment7\bin\Debug\assignment7.exe
+C:\Users\gaffn\source\repos\assignment7\bin\Debug\assignment7.pdb
+C:\Users\gaffn\source\repos\assignment7\bin\Debug\assignment7.xml
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.vbprojAssemblyReference.cache
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.Form1.resources
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.Resources.resources
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.vbproj.GenerateResource.cache
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.exe
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.xml
+C:\Users\gaffn\source\repos\assignment7\obj\Debug\assignment7.pdb

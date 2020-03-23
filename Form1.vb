@@ -71,7 +71,7 @@ Public Class Form1
         End If
         Dim DragDropResult As DragDropEffects
         Dim data As New DataObject()
-        data.SetData(sender)
+        data.SetData(sender.Name)
         DragDropResult = sender.DoDragDrop(data, DragDropEffects.Copy)
     End Sub
 
@@ -84,9 +84,9 @@ Public Class Form1
                                                     btnCol6.DragEnter,
                                                     btnCol7.DragEnter
         If ColumnFull(sender) Then
-            sender.AllowDrop = False
             sender.BackColor = Color.Red
         Else
+
             sender.BackColor = Color.Green
             e.Effect = DragDropEffects.Copy
         End If
@@ -106,7 +106,20 @@ Public Class Form1
 
     End Sub
     Private Function ColumnFull(sender As Object) As Boolean
-        Return False
+        Dim flag As Boolean = True
+        Dim intNumberFilled As Integer = 0
+        Dim panel = From controls In Me.Controls
+                    Where controls.Name = sender.Tag
+                    Select controls
+        For Each aButton As Control In panel(0).Controls
+            If Not aButton.Text = "" Then
+                intNumberFilled += 1
+            End If
+        Next
+        If intNumberFilled < panel(0).Controls.Count Then
+            flag = False
+        End If
+        Return flag
     End Function
 
     Private Sub ColumnsDragDrop(sender As Object, e As DragEventArgs) _
@@ -117,11 +130,58 @@ Public Class Form1
                                                     btnCol5.DragDrop,
                                                     btnCol6.DragDrop,
                                                     btnCol7.DragDrop
+        If ColumnFull(sender) Then
+            Exit Sub
+        End If
+
+        sender.BackColor = btnReset.BackColor
+        sender.UseVisualStyleBackColor = True
+        Dim intControl As Integer = 5
         Dim panel = From controls In Me.Controls
                     Where controls.Name = sender.Tag
                     Select controls
-        For Each aButton As Control In panel(0).Controls
-            MessageBox.Show(aButton.Name)
+
+        Dim parentButton = From controls In Me.Controls
+                           Where controls.Name = e.Data.GetData("Text")
+                           Select controls
+        Dim lastButton As Button
+        With panel(0)
+
+            While intControl >= 0
+                If .Controls(intControl).Text = "" Then
+                    .Controls(intControl).BackColor = parentButton(0).BackColor
+                    .Controls(intControl).Text = parentButton(0).Text
+                    System.Threading.Thread.Sleep(25)
+                    Application.DoEvents()
+                    lastButton = .Controls(intControl)
+                    .Controls(intControl).BackColor = btnReset.BackColor
+                    .Controls(intControl).UseVisualStyleBackColor = True
+                    .Controls(intControl).Text = ""
+                End If
+                intControl -= 1
+            End While
+        End With
+        lastButton.BackColor = parentButton(0).BackColor
+        lastButton.Text = parentButton(0).Text
+        If checkForWin(lastButton) Then
+
+        End If
+    End Sub
+
+    Private Function checkForWin(lastButton As Button) As Boolean
+        Return False
+    End Function
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        Dim panels = From panel In Me.Controls
+                     Where panel.GetType = GetType(Panel) And panel.Name.startsWith("pnl")
+                     Select panel
+        For Each panel In panels
+            For Each button In panel.Controls
+                button.BackColor = btnReset.BackColor
+                button.UseVisualStyleBackColor = True
+                button.Text = ""
+            Next
         Next
     End Sub
 End Class
