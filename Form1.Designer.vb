@@ -81,6 +81,7 @@ Partial Class Form1
         Me.btnCol6 = New System.Windows.Forms.Button()
         Me.btnCol7 = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
+        Me.lblWin = New System.Windows.Forms.Label()
         Me.pnl1.SuspendLayout()
         Me.pnl2.SuspendLayout()
         Me.pnl7.SuspendLayout()
@@ -109,8 +110,7 @@ Partial Class Form1
         Me.btn11.Name = "btn11"
         Me.btn11.Size = New System.Drawing.Size(40, 35)
         Me.btn11.TabIndex = 0
-        Me.btn11.Tag = "11"
-        Me.btn11.Text = "2"
+        Me.btn11.Tag = "00"
         Me.btn11.UseVisualStyleBackColor = True
         '
         'btn12
@@ -119,7 +119,7 @@ Partial Class Form1
         Me.btn12.Name = "btn12"
         Me.btn12.Size = New System.Drawing.Size(40, 35)
         Me.btn12.TabIndex = 0
-        Me.btn12.Tag = "12"
+        Me.btn12.Tag = "10"
         Me.btn12.UseVisualStyleBackColor = True
         '
         'btn13
@@ -128,7 +128,7 @@ Partial Class Form1
         Me.btn13.Name = "btn13"
         Me.btn13.Size = New System.Drawing.Size(40, 35)
         Me.btn13.TabIndex = 0
-        Me.btn13.Tag = "13"
+        Me.btn13.Tag = "20"
         Me.btn13.UseVisualStyleBackColor = True
         '
         'btn14
@@ -137,7 +137,7 @@ Partial Class Form1
         Me.btn14.Name = "btn14"
         Me.btn14.Size = New System.Drawing.Size(40, 35)
         Me.btn14.TabIndex = 0
-        Me.btn14.Tag = "14"
+        Me.btn14.Tag = "30"
         Me.btn14.UseVisualStyleBackColor = True
         '
         'btn15
@@ -146,7 +146,7 @@ Partial Class Form1
         Me.btn15.Name = "btn15"
         Me.btn15.Size = New System.Drawing.Size(40, 35)
         Me.btn15.TabIndex = 0
-        Me.btn15.Tag = "15"
+        Me.btn15.Tag = "40"
         Me.btn15.UseVisualStyleBackColor = True
         '
         'btn16
@@ -155,7 +155,7 @@ Partial Class Form1
         Me.btn16.Name = "btn16"
         Me.btn16.Size = New System.Drawing.Size(40, 35)
         Me.btn16.TabIndex = 0
-        Me.btn16.Tag = "16"
+        Me.btn16.Tag = "50"
         Me.btn16.UseVisualStyleBackColor = True
         '
         'pnl2
@@ -177,7 +177,7 @@ Partial Class Form1
         Me.btn21.Name = "btn21"
         Me.btn21.Size = New System.Drawing.Size(40, 35)
         Me.btn21.TabIndex = 0
-        Me.btn21.Tag = "21"
+        Me.btn21.Tag = "01"
         Me.btn21.UseVisualStyleBackColor = True
         '
         'btn22
@@ -186,8 +186,7 @@ Partial Class Form1
         Me.btn22.Name = "btn22"
         Me.btn22.Size = New System.Drawing.Size(40, 35)
         Me.btn22.TabIndex = 0
-        Me.btn22.Tag = "22"
-        Me.btn22.Text = "3"
+        Me.btn22.Tag = "11"
         Me.btn22.UseVisualStyleBackColor = True
         '
         'btn23
@@ -196,7 +195,7 @@ Partial Class Form1
         Me.btn23.Name = "btn23"
         Me.btn23.Size = New System.Drawing.Size(40, 35)
         Me.btn23.TabIndex = 0
-        Me.btn23.Tag = "23"
+        Me.btn23.Tag = "21"
         Me.btn23.UseVisualStyleBackColor = True
         '
         'btn24
@@ -205,7 +204,7 @@ Partial Class Form1
         Me.btn24.Name = "btn24"
         Me.btn24.Size = New System.Drawing.Size(40, 35)
         Me.btn24.TabIndex = 0
-        Me.btn24.Tag = "24"
+        Me.btn24.Tag = "31"
         Me.btn24.UseVisualStyleBackColor = True
         '
         'btn25
@@ -214,7 +213,7 @@ Partial Class Form1
         Me.btn25.Name = "btn25"
         Me.btn25.Size = New System.Drawing.Size(40, 35)
         Me.btn25.TabIndex = 0
-        Me.btn25.Tag = "25"
+        Me.btn25.Tag = "41"
         Me.btn25.UseVisualStyleBackColor = True
         '
         'btn26
@@ -223,7 +222,7 @@ Partial Class Form1
         Me.btn26.Name = "btn26"
         Me.btn26.Size = New System.Drawing.Size(40, 35)
         Me.btn26.TabIndex = 0
-        Me.btn26.Tag = "26"
+        Me.btn26.Tag = "51"
         Me.btn26.UseVisualStyleBackColor = True
         '
         'pnl7
@@ -245,7 +244,7 @@ Partial Class Form1
         Me.btn71.Name = "btn71"
         Me.btn71.Size = New System.Drawing.Size(40, 35)
         Me.btn71.TabIndex = 0
-        Me.btn71.Tag = "71"
+        Me.btn71.Tag = "06"
         Me.btn71.UseVisualStyleBackColor = True
         '
         'btn72
@@ -254,7 +253,7 @@ Partial Class Form1
         Me.btn72.Name = "btn72"
         Me.btn72.Size = New System.Drawing.Size(40, 35)
         Me.btn72.TabIndex = 0
-        Me.btn72.Tag = "72"
+        Me.btn72.Tag = "16"
         Me.btn72.UseVisualStyleBackColor = True
         '
         'btn73
@@ -263,7 +262,7 @@ Partial Class Form1
         Me.btn73.Name = "btn73"
         Me.btn73.Size = New System.Drawing.Size(40, 35)
         Me.btn73.TabIndex = 0
-        Me.btn73.Tag = "73"
+        Me.btn73.Tag = "26"
         Me.btn73.UseVisualStyleBackColor = True
         '
         'btn74
@@ -272,7 +271,7 @@ Partial Class Form1
         Me.btn74.Name = "btn74"
         Me.btn74.Size = New System.Drawing.Size(40, 35)
         Me.btn74.TabIndex = 0
-        Me.btn74.Tag = "74"
+        Me.btn74.Tag = "36"
         Me.btn74.UseVisualStyleBackColor = True
         '
         'btn75
@@ -281,7 +280,7 @@ Partial Class Form1
         Me.btn75.Name = "btn75"
         Me.btn75.Size = New System.Drawing.Size(40, 35)
         Me.btn75.TabIndex = 0
-        Me.btn75.Tag = "75"
+        Me.btn75.Tag = "46"
         Me.btn75.UseVisualStyleBackColor = True
         '
         'btn76
@@ -290,7 +289,7 @@ Partial Class Form1
         Me.btn76.Name = "btn76"
         Me.btn76.Size = New System.Drawing.Size(40, 35)
         Me.btn76.TabIndex = 0
-        Me.btn76.Tag = "76"
+        Me.btn76.Tag = "56"
         Me.btn76.UseVisualStyleBackColor = True
         '
         'pnl6
@@ -312,7 +311,7 @@ Partial Class Form1
         Me.btn61.Name = "btn61"
         Me.btn61.Size = New System.Drawing.Size(40, 35)
         Me.btn61.TabIndex = 0
-        Me.btn61.Tag = "61"
+        Me.btn61.Tag = "05"
         Me.btn61.UseVisualStyleBackColor = True
         '
         'btn62
@@ -321,7 +320,7 @@ Partial Class Form1
         Me.btn62.Name = "btn62"
         Me.btn62.Size = New System.Drawing.Size(40, 35)
         Me.btn62.TabIndex = 0
-        Me.btn62.Tag = "62"
+        Me.btn62.Tag = "15"
         Me.btn62.UseVisualStyleBackColor = True
         '
         'btn63
@@ -330,7 +329,7 @@ Partial Class Form1
         Me.btn63.Name = "btn63"
         Me.btn63.Size = New System.Drawing.Size(40, 35)
         Me.btn63.TabIndex = 0
-        Me.btn63.Tag = "63"
+        Me.btn63.Tag = "25"
         Me.btn63.UseVisualStyleBackColor = True
         '
         'btn64
@@ -339,7 +338,7 @@ Partial Class Form1
         Me.btn64.Name = "btn64"
         Me.btn64.Size = New System.Drawing.Size(40, 35)
         Me.btn64.TabIndex = 0
-        Me.btn64.Tag = "64"
+        Me.btn64.Tag = "35"
         Me.btn64.UseVisualStyleBackColor = True
         '
         'btn65
@@ -348,7 +347,7 @@ Partial Class Form1
         Me.btn65.Name = "btn65"
         Me.btn65.Size = New System.Drawing.Size(40, 35)
         Me.btn65.TabIndex = 0
-        Me.btn65.Tag = "65"
+        Me.btn65.Tag = "45"
         Me.btn65.UseVisualStyleBackColor = True
         '
         'btn66
@@ -357,7 +356,7 @@ Partial Class Form1
         Me.btn66.Name = "btn66"
         Me.btn66.Size = New System.Drawing.Size(40, 35)
         Me.btn66.TabIndex = 0
-        Me.btn66.Tag = "66"
+        Me.btn66.Tag = "55"
         Me.btn66.UseVisualStyleBackColor = True
         '
         'pnl5
@@ -379,7 +378,7 @@ Partial Class Form1
         Me.btn51.Name = "btn51"
         Me.btn51.Size = New System.Drawing.Size(40, 35)
         Me.btn51.TabIndex = 0
-        Me.btn51.Tag = "51"
+        Me.btn51.Tag = "04"
         Me.btn51.UseVisualStyleBackColor = True
         '
         'btn52
@@ -388,7 +387,7 @@ Partial Class Form1
         Me.btn52.Name = "btn52"
         Me.btn52.Size = New System.Drawing.Size(40, 35)
         Me.btn52.TabIndex = 0
-        Me.btn52.Tag = "52"
+        Me.btn52.Tag = "14"
         Me.btn52.UseVisualStyleBackColor = True
         '
         'btn53
@@ -397,7 +396,7 @@ Partial Class Form1
         Me.btn53.Name = "btn53"
         Me.btn53.Size = New System.Drawing.Size(40, 35)
         Me.btn53.TabIndex = 0
-        Me.btn53.Tag = "53"
+        Me.btn53.Tag = "24"
         Me.btn53.UseVisualStyleBackColor = True
         '
         'btn54
@@ -406,7 +405,7 @@ Partial Class Form1
         Me.btn54.Name = "btn54"
         Me.btn54.Size = New System.Drawing.Size(40, 35)
         Me.btn54.TabIndex = 0
-        Me.btn54.Tag = "54"
+        Me.btn54.Tag = "34"
         Me.btn54.UseVisualStyleBackColor = True
         '
         'btn55
@@ -415,7 +414,7 @@ Partial Class Form1
         Me.btn55.Name = "btn55"
         Me.btn55.Size = New System.Drawing.Size(40, 35)
         Me.btn55.TabIndex = 0
-        Me.btn55.Tag = "55"
+        Me.btn55.Tag = "44"
         Me.btn55.UseVisualStyleBackColor = True
         '
         'btn56
@@ -424,7 +423,7 @@ Partial Class Form1
         Me.btn56.Name = "btn56"
         Me.btn56.Size = New System.Drawing.Size(40, 35)
         Me.btn56.TabIndex = 0
-        Me.btn56.Tag = "56"
+        Me.btn56.Tag = "54"
         Me.btn56.UseVisualStyleBackColor = True
         '
         'pnl4
@@ -446,8 +445,7 @@ Partial Class Form1
         Me.btn41.Name = "btn41"
         Me.btn41.Size = New System.Drawing.Size(40, 35)
         Me.btn41.TabIndex = 0
-        Me.btn41.Tag = "41"
-        Me.btn41.Text = "3"
+        Me.btn41.Tag = "03"
         Me.btn41.UseVisualStyleBackColor = True
         '
         'btn42
@@ -456,8 +454,7 @@ Partial Class Form1
         Me.btn42.Name = "btn42"
         Me.btn42.Size = New System.Drawing.Size(40, 35)
         Me.btn42.TabIndex = 0
-        Me.btn42.Tag = "42"
-        Me.btn42.Text = "3"
+        Me.btn42.Tag = "13"
         Me.btn42.UseVisualStyleBackColor = True
         '
         'btn43
@@ -466,8 +463,7 @@ Partial Class Form1
         Me.btn43.Name = "btn43"
         Me.btn43.Size = New System.Drawing.Size(40, 35)
         Me.btn43.TabIndex = 0
-        Me.btn43.Tag = "43"
-        Me.btn43.Text = "2"
+        Me.btn43.Tag = "23"
         Me.btn43.UseVisualStyleBackColor = True
         '
         'btn44
@@ -476,8 +472,7 @@ Partial Class Form1
         Me.btn44.Name = "btn44"
         Me.btn44.Size = New System.Drawing.Size(40, 35)
         Me.btn44.TabIndex = 0
-        Me.btn44.Tag = "44"
-        Me.btn44.Text = "1"
+        Me.btn44.Tag = "33"
         Me.btn44.UseVisualStyleBackColor = True
         '
         'btn45
@@ -486,8 +481,7 @@ Partial Class Form1
         Me.btn45.Name = "btn45"
         Me.btn45.Size = New System.Drawing.Size(40, 35)
         Me.btn45.TabIndex = 0
-        Me.btn45.Tag = "45"
-        Me.btn45.Text = "1"
+        Me.btn45.Tag = "43"
         Me.btn45.UseVisualStyleBackColor = True
         '
         'btn46
@@ -496,8 +490,7 @@ Partial Class Form1
         Me.btn46.Name = "btn46"
         Me.btn46.Size = New System.Drawing.Size(40, 35)
         Me.btn46.TabIndex = 0
-        Me.btn46.Tag = "46"
-        Me.btn46.Text = "1"
+        Me.btn46.Tag = "53"
         Me.btn46.UseVisualStyleBackColor = True
         '
         'pnl3
@@ -519,7 +512,7 @@ Partial Class Form1
         Me.btn31.Name = "btn31"
         Me.btn31.Size = New System.Drawing.Size(40, 35)
         Me.btn31.TabIndex = 0
-        Me.btn31.Tag = "31"
+        Me.btn31.Tag = "02"
         Me.btn31.UseVisualStyleBackColor = True
         '
         'btn32
@@ -528,7 +521,7 @@ Partial Class Form1
         Me.btn32.Name = "btn32"
         Me.btn32.Size = New System.Drawing.Size(40, 35)
         Me.btn32.TabIndex = 0
-        Me.btn32.Tag = "32"
+        Me.btn32.Tag = "12"
         Me.btn32.UseVisualStyleBackColor = True
         '
         'btn33
@@ -537,7 +530,7 @@ Partial Class Form1
         Me.btn33.Name = "btn33"
         Me.btn33.Size = New System.Drawing.Size(40, 35)
         Me.btn33.TabIndex = 0
-        Me.btn33.Tag = "33"
+        Me.btn33.Tag = "22"
         Me.btn33.UseVisualStyleBackColor = True
         '
         'btn34
@@ -546,7 +539,7 @@ Partial Class Form1
         Me.btn34.Name = "btn34"
         Me.btn34.Size = New System.Drawing.Size(40, 35)
         Me.btn34.TabIndex = 0
-        Me.btn34.Tag = "34"
+        Me.btn34.Tag = "32"
         Me.btn34.UseVisualStyleBackColor = True
         '
         'btn35
@@ -555,7 +548,7 @@ Partial Class Form1
         Me.btn35.Name = "btn35"
         Me.btn35.Size = New System.Drawing.Size(40, 35)
         Me.btn35.TabIndex = 0
-        Me.btn35.Tag = "35"
+        Me.btn35.Tag = "42"
         Me.btn35.UseVisualStyleBackColor = True
         '
         'btn36
@@ -564,7 +557,7 @@ Partial Class Form1
         Me.btn36.Name = "btn36"
         Me.btn36.Size = New System.Drawing.Size(40, 35)
         Me.btn36.TabIndex = 0
-        Me.btn36.Tag = "36"
+        Me.btn36.Tag = "52"
         Me.btn36.UseVisualStyleBackColor = True
         '
         'btnPlayer1
@@ -666,11 +659,20 @@ Partial Class Form1
         Me.btnReset.Text = "Reset Board"
         Me.btnReset.UseVisualStyleBackColor = True
         '
+        'lblWin
+        '
+        Me.lblWin.AutoSize = True
+        Me.lblWin.Location = New System.Drawing.Point(344, 323)
+        Me.lblWin.Name = "lblWin"
+        Me.lblWin.Size = New System.Drawing.Size(0, 13)
+        Me.lblWin.TabIndex = 13
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblWin)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnCol7)
         Me.Controls.Add(Me.btnCol6)
@@ -698,6 +700,7 @@ Partial Class Form1
         Me.pnl4.ResumeLayout(False)
         Me.pnl3.ResumeLayout(False)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -760,4 +763,5 @@ Partial Class Form1
     Friend WithEvents btnCol6 As Button
     Friend WithEvents btnCol7 As Button
     Friend WithEvents btnReset As Button
+    Friend WithEvents lblWin As Label
 End Class
