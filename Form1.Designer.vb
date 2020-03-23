@@ -22,56 +22,56 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Button27 = New System.Windows.Forms.Button()
-        Me.Button28 = New System.Windows.Forms.Button()
-        Me.Button29 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Button37 = New System.Windows.Forms.Button()
-        Me.Button38 = New System.Windows.Forms.Button()
-        Me.Button39 = New System.Windows.Forms.Button()
-        Me.Button40 = New System.Windows.Forms.Button()
-        Me.Button41 = New System.Windows.Forms.Button()
-        Me.Button42 = New System.Windows.Forms.Button()
-        Me.btnPlayerOne = New System.Windows.Forms.Button()
+        Me.pnl1 = New System.Windows.Forms.Panel()
+        Me.btn11 = New System.Windows.Forms.Button()
+        Me.btn12 = New System.Windows.Forms.Button()
+        Me.btn13 = New System.Windows.Forms.Button()
+        Me.btn14 = New System.Windows.Forms.Button()
+        Me.btn15 = New System.Windows.Forms.Button()
+        Me.btn16 = New System.Windows.Forms.Button()
+        Me.pnl2 = New System.Windows.Forms.Panel()
+        Me.btn21 = New System.Windows.Forms.Button()
+        Me.btn22 = New System.Windows.Forms.Button()
+        Me.btn23 = New System.Windows.Forms.Button()
+        Me.btn24 = New System.Windows.Forms.Button()
+        Me.btn25 = New System.Windows.Forms.Button()
+        Me.btn26 = New System.Windows.Forms.Button()
+        Me.pnl7 = New System.Windows.Forms.Panel()
+        Me.btn71 = New System.Windows.Forms.Button()
+        Me.btn72 = New System.Windows.Forms.Button()
+        Me.btn73 = New System.Windows.Forms.Button()
+        Me.btn74 = New System.Windows.Forms.Button()
+        Me.btn75 = New System.Windows.Forms.Button()
+        Me.btn76 = New System.Windows.Forms.Button()
+        Me.pnl6 = New System.Windows.Forms.Panel()
+        Me.btn61 = New System.Windows.Forms.Button()
+        Me.btn62 = New System.Windows.Forms.Button()
+        Me.btn63 = New System.Windows.Forms.Button()
+        Me.btn64 = New System.Windows.Forms.Button()
+        Me.btn65 = New System.Windows.Forms.Button()
+        Me.btn66 = New System.Windows.Forms.Button()
+        Me.pnl5 = New System.Windows.Forms.Panel()
+        Me.btn51 = New System.Windows.Forms.Button()
+        Me.btn52 = New System.Windows.Forms.Button()
+        Me.btn53 = New System.Windows.Forms.Button()
+        Me.btn54 = New System.Windows.Forms.Button()
+        Me.btn55 = New System.Windows.Forms.Button()
+        Me.btn56 = New System.Windows.Forms.Button()
+        Me.pnl4 = New System.Windows.Forms.Panel()
+        Me.btn41 = New System.Windows.Forms.Button()
+        Me.btn42 = New System.Windows.Forms.Button()
+        Me.btn43 = New System.Windows.Forms.Button()
+        Me.btn44 = New System.Windows.Forms.Button()
+        Me.btn45 = New System.Windows.Forms.Button()
+        Me.btn46 = New System.Windows.Forms.Button()
+        Me.pnl3 = New System.Windows.Forms.Panel()
+        Me.btn31 = New System.Windows.Forms.Button()
+        Me.btn32 = New System.Windows.Forms.Button()
+        Me.btn33 = New System.Windows.Forms.Button()
+        Me.btn34 = New System.Windows.Forms.Button()
+        Me.btn35 = New System.Windows.Forms.Button()
+        Me.btn36 = New System.Windows.Forms.Button()
+        Me.btnPlayer1 = New System.Windows.Forms.Button()
         Me.btnPlayer2 = New System.Windows.Forms.Button()
         Me.btnCol1 = New System.Windows.Forms.Button()
         Me.btnCol2 = New System.Windows.Forms.Button()
@@ -81,451 +81,451 @@ Partial Class Form1
         Me.btnCol6 = New System.Windows.Forms.Button()
         Me.btnCol7 = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel5.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.Panel7.SuspendLayout()
+        Me.pnl1.SuspendLayout()
+        Me.pnl2.SuspendLayout()
+        Me.pnl7.SuspendLayout()
+        Me.pnl6.SuspendLayout()
+        Me.pnl5.SuspendLayout()
+        Me.pnl4.SuspendLayout()
+        Me.pnl3.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(174, 56)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(48, 254)
-        Me.Panel1.TabIndex = 0
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(40, 35)
-        Me.Button1.TabIndex = 0
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(3, 44)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(40, 35)
-        Me.Button2.TabIndex = 0
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(3, 85)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(40, 35)
-        Me.Button3.TabIndex = 0
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(3, 126)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(40, 35)
-        Me.Button4.TabIndex = 0
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(3, 167)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(40, 35)
-        Me.Button5.TabIndex = 0
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(3, 208)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(40, 35)
-        Me.Button6.TabIndex = 0
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.Button7)
-        Me.Panel2.Controls.Add(Me.Button8)
-        Me.Panel2.Controls.Add(Me.Button9)
-        Me.Panel2.Controls.Add(Me.Button10)
-        Me.Panel2.Controls.Add(Me.Button11)
-        Me.Panel2.Controls.Add(Me.Button12)
-        Me.Panel2.Location = New System.Drawing.Point(228, 56)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(48, 250)
-        Me.Panel2.TabIndex = 1
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(3, 208)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(40, 35)
-        Me.Button7.TabIndex = 0
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(3, 167)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(40, 35)
-        Me.Button8.TabIndex = 0
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(3, 126)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(40, 35)
-        Me.Button9.TabIndex = 0
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Location = New System.Drawing.Point(3, 85)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(40, 35)
-        Me.Button10.TabIndex = 0
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(3, 44)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(40, 35)
-        Me.Button11.TabIndex = 0
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Location = New System.Drawing.Point(3, 3)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(40, 35)
-        Me.Button12.TabIndex = 0
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Panel3
-        '
-        Me.Panel3.Controls.Add(Me.Button13)
-        Me.Panel3.Controls.Add(Me.Button14)
-        Me.Panel3.Controls.Add(Me.Button15)
-        Me.Panel3.Controls.Add(Me.Button16)
-        Me.Panel3.Controls.Add(Me.Button17)
-        Me.Panel3.Controls.Add(Me.Button18)
-        Me.Panel3.Location = New System.Drawing.Point(498, 56)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(48, 250)
-        Me.Panel3.TabIndex = 2
-        '
-        'Button13
-        '
-        Me.Button13.Location = New System.Drawing.Point(3, 208)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(40, 35)
-        Me.Button13.TabIndex = 0
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.Location = New System.Drawing.Point(3, 167)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(40, 35)
-        Me.Button14.TabIndex = 0
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(3, 126)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(40, 35)
-        Me.Button15.TabIndex = 0
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Location = New System.Drawing.Point(3, 85)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(40, 35)
-        Me.Button16.TabIndex = 0
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Location = New System.Drawing.Point(3, 44)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(40, 35)
-        Me.Button17.TabIndex = 0
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Button18
-        '
-        Me.Button18.Location = New System.Drawing.Point(3, 3)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(40, 35)
-        Me.Button18.TabIndex = 0
-        Me.Button18.UseVisualStyleBackColor = True
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.Button19)
-        Me.Panel4.Controls.Add(Me.Button20)
-        Me.Panel4.Controls.Add(Me.Button21)
-        Me.Panel4.Controls.Add(Me.Button22)
-        Me.Panel4.Controls.Add(Me.Button23)
-        Me.Panel4.Controls.Add(Me.Button24)
-        Me.Panel4.Location = New System.Drawing.Point(444, 56)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(48, 250)
-        Me.Panel4.TabIndex = 1
-        '
-        'Button19
-        '
-        Me.Button19.Location = New System.Drawing.Point(3, 208)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(40, 35)
-        Me.Button19.TabIndex = 0
-        Me.Button19.UseVisualStyleBackColor = True
-        '
-        'Button20
-        '
-        Me.Button20.Location = New System.Drawing.Point(3, 167)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(40, 35)
-        Me.Button20.TabIndex = 0
-        Me.Button20.UseVisualStyleBackColor = True
-        '
-        'Button21
-        '
-        Me.Button21.Location = New System.Drawing.Point(3, 126)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(40, 35)
-        Me.Button21.TabIndex = 0
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'Button22
-        '
-        Me.Button22.Location = New System.Drawing.Point(3, 85)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(40, 35)
-        Me.Button22.TabIndex = 0
-        Me.Button22.UseVisualStyleBackColor = True
-        '
-        'Button23
-        '
-        Me.Button23.Location = New System.Drawing.Point(3, 44)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(40, 35)
-        Me.Button23.TabIndex = 0
-        Me.Button23.UseVisualStyleBackColor = True
-        '
-        'Button24
-        '
-        Me.Button24.Location = New System.Drawing.Point(3, 3)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(40, 35)
-        Me.Button24.TabIndex = 0
-        Me.Button24.UseVisualStyleBackColor = True
-        '
-        'Panel5
-        '
-        Me.Panel5.Controls.Add(Me.Button25)
-        Me.Panel5.Controls.Add(Me.Button26)
-        Me.Panel5.Controls.Add(Me.Button27)
-        Me.Panel5.Controls.Add(Me.Button28)
-        Me.Panel5.Controls.Add(Me.Button29)
-        Me.Panel5.Controls.Add(Me.Button30)
-        Me.Panel5.Location = New System.Drawing.Point(390, 56)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(48, 250)
-        Me.Panel5.TabIndex = 1
-        '
-        'Button25
-        '
-        Me.Button25.Location = New System.Drawing.Point(3, 208)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(40, 35)
-        Me.Button25.TabIndex = 0
-        Me.Button25.UseVisualStyleBackColor = True
-        '
-        'Button26
-        '
-        Me.Button26.Location = New System.Drawing.Point(3, 167)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(40, 35)
-        Me.Button26.TabIndex = 0
-        Me.Button26.UseVisualStyleBackColor = True
-        '
-        'Button27
-        '
-        Me.Button27.Location = New System.Drawing.Point(3, 126)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(40, 35)
-        Me.Button27.TabIndex = 0
-        Me.Button27.UseVisualStyleBackColor = True
-        '
-        'Button28
-        '
-        Me.Button28.Location = New System.Drawing.Point(3, 85)
-        Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(40, 35)
-        Me.Button28.TabIndex = 0
-        Me.Button28.UseVisualStyleBackColor = True
-        '
-        'Button29
-        '
-        Me.Button29.Location = New System.Drawing.Point(3, 44)
-        Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(40, 35)
-        Me.Button29.TabIndex = 0
-        Me.Button29.UseVisualStyleBackColor = True
-        '
-        'Button30
-        '
-        Me.Button30.Location = New System.Drawing.Point(3, 3)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(40, 35)
-        Me.Button30.TabIndex = 0
-        Me.Button30.UseVisualStyleBackColor = True
-        '
-        'Panel6
-        '
-        Me.Panel6.Controls.Add(Me.Button31)
-        Me.Panel6.Controls.Add(Me.Button32)
-        Me.Panel6.Controls.Add(Me.Button33)
-        Me.Panel6.Controls.Add(Me.Button34)
-        Me.Panel6.Controls.Add(Me.Button35)
-        Me.Panel6.Controls.Add(Me.Button36)
-        Me.Panel6.Location = New System.Drawing.Point(336, 56)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(48, 250)
-        Me.Panel6.TabIndex = 1
-        '
-        'Button31
-        '
-        Me.Button31.Location = New System.Drawing.Point(3, 208)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(40, 35)
-        Me.Button31.TabIndex = 0
-        Me.Button31.UseVisualStyleBackColor = True
-        '
-        'Button32
-        '
-        Me.Button32.Location = New System.Drawing.Point(3, 167)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(40, 35)
-        Me.Button32.TabIndex = 0
-        Me.Button32.UseVisualStyleBackColor = True
-        '
-        'Button33
-        '
-        Me.Button33.Location = New System.Drawing.Point(3, 126)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(40, 35)
-        Me.Button33.TabIndex = 0
-        Me.Button33.UseVisualStyleBackColor = True
-        '
-        'Button34
-        '
-        Me.Button34.Location = New System.Drawing.Point(3, 85)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(40, 35)
-        Me.Button34.TabIndex = 0
-        Me.Button34.UseVisualStyleBackColor = True
-        '
-        'Button35
-        '
-        Me.Button35.Location = New System.Drawing.Point(3, 44)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(40, 35)
-        Me.Button35.TabIndex = 0
-        Me.Button35.UseVisualStyleBackColor = True
-        '
-        'Button36
-        '
-        Me.Button36.Location = New System.Drawing.Point(3, 3)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(40, 35)
-        Me.Button36.TabIndex = 0
-        Me.Button36.UseVisualStyleBackColor = True
-        '
-        'Panel7
-        '
-        Me.Panel7.Controls.Add(Me.Button37)
-        Me.Panel7.Controls.Add(Me.Button38)
-        Me.Panel7.Controls.Add(Me.Button39)
-        Me.Panel7.Controls.Add(Me.Button40)
-        Me.Panel7.Controls.Add(Me.Button41)
-        Me.Panel7.Controls.Add(Me.Button42)
-        Me.Panel7.Location = New System.Drawing.Point(282, 56)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(48, 250)
-        Me.Panel7.TabIndex = 1
-        '
-        'Button37
-        '
-        Me.Button37.Location = New System.Drawing.Point(3, 208)
-        Me.Button37.Name = "Button37"
-        Me.Button37.Size = New System.Drawing.Size(40, 35)
-        Me.Button37.TabIndex = 0
-        Me.Button37.UseVisualStyleBackColor = True
-        '
-        'Button38
-        '
-        Me.Button38.Location = New System.Drawing.Point(3, 167)
-        Me.Button38.Name = "Button38"
-        Me.Button38.Size = New System.Drawing.Size(40, 35)
-        Me.Button38.TabIndex = 0
-        Me.Button38.UseVisualStyleBackColor = True
-        '
-        'Button39
-        '
-        Me.Button39.Location = New System.Drawing.Point(3, 126)
-        Me.Button39.Name = "Button39"
-        Me.Button39.Size = New System.Drawing.Size(40, 35)
-        Me.Button39.TabIndex = 0
-        Me.Button39.UseVisualStyleBackColor = True
-        '
-        'Button40
-        '
-        Me.Button40.Location = New System.Drawing.Point(3, 85)
-        Me.Button40.Name = "Button40"
-        Me.Button40.Size = New System.Drawing.Size(40, 35)
-        Me.Button40.TabIndex = 0
-        Me.Button40.UseVisualStyleBackColor = True
-        '
-        'Button41
-        '
-        Me.Button41.Location = New System.Drawing.Point(3, 44)
-        Me.Button41.Name = "Button41"
-        Me.Button41.Size = New System.Drawing.Size(40, 35)
-        Me.Button41.TabIndex = 0
-        Me.Button41.UseVisualStyleBackColor = True
-        '
-        'Button42
-        '
-        Me.Button42.Location = New System.Drawing.Point(3, 3)
-        Me.Button42.Name = "Button42"
-        Me.Button42.Size = New System.Drawing.Size(40, 35)
-        Me.Button42.TabIndex = 0
-        Me.Button42.UseVisualStyleBackColor = True
-        '
-        'btnPlayerOne
-        '
-        Me.btnPlayerOne.BackColor = System.Drawing.Color.Cyan
-        Me.btnPlayerOne.Location = New System.Drawing.Point(40, 165)
-        Me.btnPlayerOne.Name = "btnPlayerOne"
-        Me.btnPlayerOne.Size = New System.Drawing.Size(40, 36)
-        Me.btnPlayerOne.TabIndex = 3
-        Me.btnPlayerOne.Text = "O"
-        Me.btnPlayerOne.UseVisualStyleBackColor = False
+        'pnl1
+        '
+        Me.pnl1.Controls.Add(Me.btn11)
+        Me.pnl1.Controls.Add(Me.btn12)
+        Me.pnl1.Controls.Add(Me.btn13)
+        Me.pnl1.Controls.Add(Me.btn14)
+        Me.pnl1.Controls.Add(Me.btn15)
+        Me.pnl1.Controls.Add(Me.btn16)
+        Me.pnl1.Location = New System.Drawing.Point(174, 56)
+        Me.pnl1.Name = "pnl1"
+        Me.pnl1.Size = New System.Drawing.Size(48, 254)
+        Me.pnl1.TabIndex = 0
+        '
+        'btn11
+        '
+        Me.btn11.Location = New System.Drawing.Point(3, 208)
+        Me.btn11.Name = "btn11"
+        Me.btn11.Size = New System.Drawing.Size(40, 35)
+        Me.btn11.TabIndex = 0
+        Me.btn11.UseVisualStyleBackColor = True
+        '
+        'btn12
+        '
+        Me.btn12.Location = New System.Drawing.Point(3, 167)
+        Me.btn12.Name = "btn12"
+        Me.btn12.Size = New System.Drawing.Size(40, 35)
+        Me.btn12.TabIndex = 0
+        Me.btn12.UseVisualStyleBackColor = True
+        '
+        'btn13
+        '
+        Me.btn13.Location = New System.Drawing.Point(3, 126)
+        Me.btn13.Name = "btn13"
+        Me.btn13.Size = New System.Drawing.Size(40, 35)
+        Me.btn13.TabIndex = 0
+        Me.btn13.UseVisualStyleBackColor = True
+        '
+        'btn14
+        '
+        Me.btn14.Location = New System.Drawing.Point(3, 85)
+        Me.btn14.Name = "btn14"
+        Me.btn14.Size = New System.Drawing.Size(40, 35)
+        Me.btn14.TabIndex = 0
+        Me.btn14.UseVisualStyleBackColor = True
+        '
+        'btn15
+        '
+        Me.btn15.Location = New System.Drawing.Point(3, 44)
+        Me.btn15.Name = "btn15"
+        Me.btn15.Size = New System.Drawing.Size(40, 35)
+        Me.btn15.TabIndex = 0
+        Me.btn15.UseVisualStyleBackColor = True
+        '
+        'btn16
+        '
+        Me.btn16.Location = New System.Drawing.Point(3, 3)
+        Me.btn16.Name = "btn16"
+        Me.btn16.Size = New System.Drawing.Size(40, 35)
+        Me.btn16.TabIndex = 0
+        Me.btn16.UseVisualStyleBackColor = True
+        '
+        'pnl2
+        '
+        Me.pnl2.Controls.Add(Me.btn21)
+        Me.pnl2.Controls.Add(Me.btn22)
+        Me.pnl2.Controls.Add(Me.btn23)
+        Me.pnl2.Controls.Add(Me.btn24)
+        Me.pnl2.Controls.Add(Me.btn25)
+        Me.pnl2.Controls.Add(Me.btn26)
+        Me.pnl2.Location = New System.Drawing.Point(228, 56)
+        Me.pnl2.Name = "pnl2"
+        Me.pnl2.Size = New System.Drawing.Size(48, 250)
+        Me.pnl2.TabIndex = 1
+        '
+        'btn21
+        '
+        Me.btn21.Location = New System.Drawing.Point(3, 208)
+        Me.btn21.Name = "btn21"
+        Me.btn21.Size = New System.Drawing.Size(40, 35)
+        Me.btn21.TabIndex = 0
+        Me.btn21.UseVisualStyleBackColor = True
+        '
+        'btn22
+        '
+        Me.btn22.Location = New System.Drawing.Point(3, 167)
+        Me.btn22.Name = "btn22"
+        Me.btn22.Size = New System.Drawing.Size(40, 35)
+        Me.btn22.TabIndex = 0
+        Me.btn22.UseVisualStyleBackColor = True
+        '
+        'btn23
+        '
+        Me.btn23.Location = New System.Drawing.Point(3, 126)
+        Me.btn23.Name = "btn23"
+        Me.btn23.Size = New System.Drawing.Size(40, 35)
+        Me.btn23.TabIndex = 0
+        Me.btn23.UseVisualStyleBackColor = True
+        '
+        'btn24
+        '
+        Me.btn24.Location = New System.Drawing.Point(3, 85)
+        Me.btn24.Name = "btn24"
+        Me.btn24.Size = New System.Drawing.Size(40, 35)
+        Me.btn24.TabIndex = 0
+        Me.btn24.UseVisualStyleBackColor = True
+        '
+        'btn25
+        '
+        Me.btn25.Location = New System.Drawing.Point(3, 44)
+        Me.btn25.Name = "btn25"
+        Me.btn25.Size = New System.Drawing.Size(40, 35)
+        Me.btn25.TabIndex = 0
+        Me.btn25.UseVisualStyleBackColor = True
+        '
+        'btn26
+        '
+        Me.btn26.Location = New System.Drawing.Point(3, 3)
+        Me.btn26.Name = "btn26"
+        Me.btn26.Size = New System.Drawing.Size(40, 35)
+        Me.btn26.TabIndex = 0
+        Me.btn26.UseVisualStyleBackColor = True
+        '
+        'pnl7
+        '
+        Me.pnl7.Controls.Add(Me.btn71)
+        Me.pnl7.Controls.Add(Me.btn72)
+        Me.pnl7.Controls.Add(Me.btn73)
+        Me.pnl7.Controls.Add(Me.btn74)
+        Me.pnl7.Controls.Add(Me.btn75)
+        Me.pnl7.Controls.Add(Me.btn76)
+        Me.pnl7.Location = New System.Drawing.Point(498, 56)
+        Me.pnl7.Name = "pnl7"
+        Me.pnl7.Size = New System.Drawing.Size(48, 250)
+        Me.pnl7.TabIndex = 2
+        '
+        'btn71
+        '
+        Me.btn71.Location = New System.Drawing.Point(3, 208)
+        Me.btn71.Name = "btn71"
+        Me.btn71.Size = New System.Drawing.Size(40, 35)
+        Me.btn71.TabIndex = 0
+        Me.btn71.UseVisualStyleBackColor = True
+        '
+        'btn72
+        '
+        Me.btn72.Location = New System.Drawing.Point(3, 167)
+        Me.btn72.Name = "btn72"
+        Me.btn72.Size = New System.Drawing.Size(40, 35)
+        Me.btn72.TabIndex = 0
+        Me.btn72.UseVisualStyleBackColor = True
+        '
+        'btn73
+        '
+        Me.btn73.Location = New System.Drawing.Point(3, 126)
+        Me.btn73.Name = "btn73"
+        Me.btn73.Size = New System.Drawing.Size(40, 35)
+        Me.btn73.TabIndex = 0
+        Me.btn73.UseVisualStyleBackColor = True
+        '
+        'btn74
+        '
+        Me.btn74.Location = New System.Drawing.Point(3, 85)
+        Me.btn74.Name = "btn74"
+        Me.btn74.Size = New System.Drawing.Size(40, 35)
+        Me.btn74.TabIndex = 0
+        Me.btn74.UseVisualStyleBackColor = True
+        '
+        'btn75
+        '
+        Me.btn75.Location = New System.Drawing.Point(3, 44)
+        Me.btn75.Name = "btn75"
+        Me.btn75.Size = New System.Drawing.Size(40, 35)
+        Me.btn75.TabIndex = 0
+        Me.btn75.UseVisualStyleBackColor = True
+        '
+        'btn76
+        '
+        Me.btn76.Location = New System.Drawing.Point(3, 3)
+        Me.btn76.Name = "btn76"
+        Me.btn76.Size = New System.Drawing.Size(40, 35)
+        Me.btn76.TabIndex = 0
+        Me.btn76.UseVisualStyleBackColor = True
+        '
+        'pnl6
+        '
+        Me.pnl6.Controls.Add(Me.btn61)
+        Me.pnl6.Controls.Add(Me.btn62)
+        Me.pnl6.Controls.Add(Me.btn63)
+        Me.pnl6.Controls.Add(Me.btn64)
+        Me.pnl6.Controls.Add(Me.btn65)
+        Me.pnl6.Controls.Add(Me.btn66)
+        Me.pnl6.Location = New System.Drawing.Point(444, 56)
+        Me.pnl6.Name = "pnl6"
+        Me.pnl6.Size = New System.Drawing.Size(48, 250)
+        Me.pnl6.TabIndex = 1
+        '
+        'btn61
+        '
+        Me.btn61.Location = New System.Drawing.Point(3, 208)
+        Me.btn61.Name = "btn61"
+        Me.btn61.Size = New System.Drawing.Size(40, 35)
+        Me.btn61.TabIndex = 0
+        Me.btn61.UseVisualStyleBackColor = True
+        '
+        'btn62
+        '
+        Me.btn62.Location = New System.Drawing.Point(3, 167)
+        Me.btn62.Name = "btn62"
+        Me.btn62.Size = New System.Drawing.Size(40, 35)
+        Me.btn62.TabIndex = 0
+        Me.btn62.UseVisualStyleBackColor = True
+        '
+        'btn63
+        '
+        Me.btn63.Location = New System.Drawing.Point(3, 126)
+        Me.btn63.Name = "btn63"
+        Me.btn63.Size = New System.Drawing.Size(40, 35)
+        Me.btn63.TabIndex = 0
+        Me.btn63.UseVisualStyleBackColor = True
+        '
+        'btn64
+        '
+        Me.btn64.Location = New System.Drawing.Point(3, 85)
+        Me.btn64.Name = "btn64"
+        Me.btn64.Size = New System.Drawing.Size(40, 35)
+        Me.btn64.TabIndex = 0
+        Me.btn64.UseVisualStyleBackColor = True
+        '
+        'btn65
+        '
+        Me.btn65.Location = New System.Drawing.Point(3, 44)
+        Me.btn65.Name = "btn65"
+        Me.btn65.Size = New System.Drawing.Size(40, 35)
+        Me.btn65.TabIndex = 0
+        Me.btn65.UseVisualStyleBackColor = True
+        '
+        'btn66
+        '
+        Me.btn66.Location = New System.Drawing.Point(3, 3)
+        Me.btn66.Name = "btn66"
+        Me.btn66.Size = New System.Drawing.Size(40, 35)
+        Me.btn66.TabIndex = 0
+        Me.btn66.UseVisualStyleBackColor = True
+        '
+        'pnl5
+        '
+        Me.pnl5.Controls.Add(Me.btn51)
+        Me.pnl5.Controls.Add(Me.btn52)
+        Me.pnl5.Controls.Add(Me.btn53)
+        Me.pnl5.Controls.Add(Me.btn54)
+        Me.pnl5.Controls.Add(Me.btn55)
+        Me.pnl5.Controls.Add(Me.btn56)
+        Me.pnl5.Location = New System.Drawing.Point(390, 56)
+        Me.pnl5.Name = "pnl5"
+        Me.pnl5.Size = New System.Drawing.Size(48, 250)
+        Me.pnl5.TabIndex = 1
+        '
+        'btn51
+        '
+        Me.btn51.Location = New System.Drawing.Point(3, 208)
+        Me.btn51.Name = "btn51"
+        Me.btn51.Size = New System.Drawing.Size(40, 35)
+        Me.btn51.TabIndex = 0
+        Me.btn51.UseVisualStyleBackColor = True
+        '
+        'btn52
+        '
+        Me.btn52.Location = New System.Drawing.Point(3, 167)
+        Me.btn52.Name = "btn52"
+        Me.btn52.Size = New System.Drawing.Size(40, 35)
+        Me.btn52.TabIndex = 0
+        Me.btn52.UseVisualStyleBackColor = True
+        '
+        'btn53
+        '
+        Me.btn53.Location = New System.Drawing.Point(3, 126)
+        Me.btn53.Name = "btn53"
+        Me.btn53.Size = New System.Drawing.Size(40, 35)
+        Me.btn53.TabIndex = 0
+        Me.btn53.UseVisualStyleBackColor = True
+        '
+        'btn54
+        '
+        Me.btn54.Location = New System.Drawing.Point(3, 85)
+        Me.btn54.Name = "btn54"
+        Me.btn54.Size = New System.Drawing.Size(40, 35)
+        Me.btn54.TabIndex = 0
+        Me.btn54.UseVisualStyleBackColor = True
+        '
+        'btn55
+        '
+        Me.btn55.Location = New System.Drawing.Point(3, 44)
+        Me.btn55.Name = "btn55"
+        Me.btn55.Size = New System.Drawing.Size(40, 35)
+        Me.btn55.TabIndex = 0
+        Me.btn55.UseVisualStyleBackColor = True
+        '
+        'btn56
+        '
+        Me.btn56.Location = New System.Drawing.Point(3, 3)
+        Me.btn56.Name = "btn56"
+        Me.btn56.Size = New System.Drawing.Size(40, 35)
+        Me.btn56.TabIndex = 0
+        Me.btn56.UseVisualStyleBackColor = True
+        '
+        'pnl4
+        '
+        Me.pnl4.Controls.Add(Me.btn41)
+        Me.pnl4.Controls.Add(Me.btn42)
+        Me.pnl4.Controls.Add(Me.btn43)
+        Me.pnl4.Controls.Add(Me.btn44)
+        Me.pnl4.Controls.Add(Me.btn45)
+        Me.pnl4.Controls.Add(Me.btn46)
+        Me.pnl4.Location = New System.Drawing.Point(336, 56)
+        Me.pnl4.Name = "pnl4"
+        Me.pnl4.Size = New System.Drawing.Size(48, 250)
+        Me.pnl4.TabIndex = 1
+        '
+        'btn41
+        '
+        Me.btn41.Location = New System.Drawing.Point(3, 208)
+        Me.btn41.Name = "btn41"
+        Me.btn41.Size = New System.Drawing.Size(40, 35)
+        Me.btn41.TabIndex = 0
+        Me.btn41.UseVisualStyleBackColor = True
+        '
+        'btn42
+        '
+        Me.btn42.Location = New System.Drawing.Point(3, 167)
+        Me.btn42.Name = "btn42"
+        Me.btn42.Size = New System.Drawing.Size(40, 35)
+        Me.btn42.TabIndex = 0
+        Me.btn42.UseVisualStyleBackColor = True
+        '
+        'btn43
+        '
+        Me.btn43.Location = New System.Drawing.Point(3, 126)
+        Me.btn43.Name = "btn43"
+        Me.btn43.Size = New System.Drawing.Size(40, 35)
+        Me.btn43.TabIndex = 0
+        Me.btn43.UseVisualStyleBackColor = True
+        '
+        'btn44
+        '
+        Me.btn44.Location = New System.Drawing.Point(3, 85)
+        Me.btn44.Name = "btn44"
+        Me.btn44.Size = New System.Drawing.Size(40, 35)
+        Me.btn44.TabIndex = 0
+        Me.btn44.UseVisualStyleBackColor = True
+        '
+        'btn45
+        '
+        Me.btn45.Location = New System.Drawing.Point(3, 44)
+        Me.btn45.Name = "btn45"
+        Me.btn45.Size = New System.Drawing.Size(40, 35)
+        Me.btn45.TabIndex = 0
+        Me.btn45.UseVisualStyleBackColor = True
+        '
+        'btn46
+        '
+        Me.btn46.Location = New System.Drawing.Point(3, 3)
+        Me.btn46.Name = "btn46"
+        Me.btn46.Size = New System.Drawing.Size(40, 35)
+        Me.btn46.TabIndex = 0
+        Me.btn46.UseVisualStyleBackColor = True
+        '
+        'pnl3
+        '
+        Me.pnl3.Controls.Add(Me.btn31)
+        Me.pnl3.Controls.Add(Me.btn32)
+        Me.pnl3.Controls.Add(Me.btn33)
+        Me.pnl3.Controls.Add(Me.btn34)
+        Me.pnl3.Controls.Add(Me.btn35)
+        Me.pnl3.Controls.Add(Me.btn36)
+        Me.pnl3.Location = New System.Drawing.Point(282, 56)
+        Me.pnl3.Name = "pnl3"
+        Me.pnl3.Size = New System.Drawing.Size(48, 250)
+        Me.pnl3.TabIndex = 1
+        '
+        'btn31
+        '
+        Me.btn31.Location = New System.Drawing.Point(3, 208)
+        Me.btn31.Name = "btn31"
+        Me.btn31.Size = New System.Drawing.Size(40, 35)
+        Me.btn31.TabIndex = 0
+        Me.btn31.UseVisualStyleBackColor = True
+        '
+        'btn32
+        '
+        Me.btn32.Location = New System.Drawing.Point(3, 167)
+        Me.btn32.Name = "btn32"
+        Me.btn32.Size = New System.Drawing.Size(40, 35)
+        Me.btn32.TabIndex = 0
+        Me.btn32.UseVisualStyleBackColor = True
+        '
+        'btn33
+        '
+        Me.btn33.Location = New System.Drawing.Point(3, 126)
+        Me.btn33.Name = "btn33"
+        Me.btn33.Size = New System.Drawing.Size(40, 35)
+        Me.btn33.TabIndex = 0
+        Me.btn33.UseVisualStyleBackColor = True
+        '
+        'btn34
+        '
+        Me.btn34.Location = New System.Drawing.Point(3, 85)
+        Me.btn34.Name = "btn34"
+        Me.btn34.Size = New System.Drawing.Size(40, 35)
+        Me.btn34.TabIndex = 0
+        Me.btn34.UseVisualStyleBackColor = True
+        '
+        'btn35
+        '
+        Me.btn35.Location = New System.Drawing.Point(3, 44)
+        Me.btn35.Name = "btn35"
+        Me.btn35.Size = New System.Drawing.Size(40, 35)
+        Me.btn35.TabIndex = 0
+        Me.btn35.UseVisualStyleBackColor = True
+        '
+        'btn36
+        '
+        Me.btn36.Location = New System.Drawing.Point(3, 3)
+        Me.btn36.Name = "btn36"
+        Me.btn36.Size = New System.Drawing.Size(40, 35)
+        Me.btn36.TabIndex = 0
+        Me.btn36.UseVisualStyleBackColor = True
+        '
+        'btnPlayer1
+        '
+        Me.btnPlayer1.BackColor = System.Drawing.Color.Cyan
+        Me.btnPlayer1.Location = New System.Drawing.Point(40, 165)
+        Me.btnPlayer1.Name = "btnPlayer1"
+        Me.btnPlayer1.Size = New System.Drawing.Size(40, 36)
+        Me.btnPlayer1.TabIndex = 3
+        Me.btnPlayer1.Text = "O"
+        Me.btnPlayer1.UseVisualStyleBackColor = False
         '
         'btnPlayer2
         '
@@ -543,6 +543,7 @@ Partial Class Form1
         Me.btnCol1.Name = "btnCol1"
         Me.btnCol1.Size = New System.Drawing.Size(40, 35)
         Me.btnCol1.TabIndex = 5
+        Me.btnCol1.Tag = "pnl1"
         Me.btnCol1.Text = "1"
         Me.btnCol1.UseVisualStyleBackColor = True
         '
@@ -552,6 +553,7 @@ Partial Class Form1
         Me.btnCol2.Name = "btnCol2"
         Me.btnCol2.Size = New System.Drawing.Size(40, 35)
         Me.btnCol2.TabIndex = 6
+        Me.btnCol2.Tag = "pnl2"
         Me.btnCol2.Text = "2"
         Me.btnCol2.UseVisualStyleBackColor = True
         '
@@ -561,6 +563,7 @@ Partial Class Form1
         Me.btnCol3.Name = "btnCol3"
         Me.btnCol3.Size = New System.Drawing.Size(40, 35)
         Me.btnCol3.TabIndex = 7
+        Me.btnCol3.Tag = "pnl3"
         Me.btnCol3.Text = "3"
         Me.btnCol3.UseVisualStyleBackColor = True
         '
@@ -570,6 +573,7 @@ Partial Class Form1
         Me.btnCol4.Name = "btnCol4"
         Me.btnCol4.Size = New System.Drawing.Size(40, 35)
         Me.btnCol4.TabIndex = 8
+        Me.btnCol4.Tag = "pnl4"
         Me.btnCol4.Text = "4"
         Me.btnCol4.UseVisualStyleBackColor = True
         '
@@ -579,6 +583,7 @@ Partial Class Form1
         Me.btnCol5.Name = "btnCol5"
         Me.btnCol5.Size = New System.Drawing.Size(40, 35)
         Me.btnCol5.TabIndex = 9
+        Me.btnCol5.Tag = "pnl5"
         Me.btnCol5.Text = "5"
         Me.btnCol5.UseVisualStyleBackColor = True
         '
@@ -588,6 +593,7 @@ Partial Class Form1
         Me.btnCol6.Name = "btnCol6"
         Me.btnCol6.Size = New System.Drawing.Size(40, 35)
         Me.btnCol6.TabIndex = 10
+        Me.btnCol6.Tag = "pnl6"
         Me.btnCol6.Text = "6"
         Me.btnCol6.UseVisualStyleBackColor = True
         '
@@ -597,6 +603,7 @@ Partial Class Form1
         Me.btnCol7.Name = "btnCol7"
         Me.btnCol7.Size = New System.Drawing.Size(40, 35)
         Me.btnCol7.TabIndex = 11
+        Me.btnCol7.Tag = "pnl7"
         Me.btnCol7.Text = "7"
         Me.btnCol7.UseVisualStyleBackColor = True
         '
@@ -623,77 +630,77 @@ Partial Class Form1
         Me.Controls.Add(Me.btnCol2)
         Me.Controls.Add(Me.btnCol1)
         Me.Controls.Add(Me.btnPlayer2)
-        Me.Controls.Add(Me.btnPlayerOne)
-        Me.Controls.Add(Me.Panel4)
-        Me.Controls.Add(Me.Panel5)
-        Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.Panel7)
-        Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.btnPlayer1)
+        Me.Controls.Add(Me.pnl6)
+        Me.Controls.Add(Me.pnl5)
+        Me.Controls.Add(Me.pnl4)
+        Me.Controls.Add(Me.pnl3)
+        Me.Controls.Add(Me.pnl7)
+        Me.Controls.Add(Me.pnl2)
+        Me.Controls.Add(Me.pnl1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel7.ResumeLayout(False)
+        Me.pnl1.ResumeLayout(False)
+        Me.pnl2.ResumeLayout(False)
+        Me.pnl7.ResumeLayout(False)
+        Me.pnl6.ResumeLayout(False)
+        Me.pnl5.ResumeLayout(False)
+        Me.pnl4.ResumeLayout(False)
+        Me.pnl3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button21 As Button
-    Friend WithEvents Button22 As Button
-    Friend WithEvents Button23 As Button
-    Friend WithEvents Button24 As Button
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Button25 As Button
-    Friend WithEvents Button26 As Button
-    Friend WithEvents Button27 As Button
-    Friend WithEvents Button28 As Button
-    Friend WithEvents Button29 As Button
-    Friend WithEvents Button30 As Button
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents Button31 As Button
-    Friend WithEvents Button32 As Button
-    Friend WithEvents Button33 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
-    Friend WithEvents Button36 As Button
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents Button37 As Button
-    Friend WithEvents Button38 As Button
-    Friend WithEvents Button39 As Button
-    Friend WithEvents Button40 As Button
-    Friend WithEvents Button41 As Button
-    Friend WithEvents Button42 As Button
-    Friend WithEvents btnPlayerOne As Button
+    Friend WithEvents pnl1 As Panel
+    Friend WithEvents btn11 As Button
+    Friend WithEvents btn12 As Button
+    Friend WithEvents btn13 As Button
+    Friend WithEvents btn14 As Button
+    Friend WithEvents btn15 As Button
+    Friend WithEvents btn16 As Button
+    Friend WithEvents pnl2 As Panel
+    Friend WithEvents btn21 As Button
+    Friend WithEvents btn22 As Button
+    Friend WithEvents btn23 As Button
+    Friend WithEvents btn24 As Button
+    Friend WithEvents btn25 As Button
+    Friend WithEvents btn26 As Button
+    Friend WithEvents pnl7 As Panel
+    Friend WithEvents btn71 As Button
+    Friend WithEvents btn72 As Button
+    Friend WithEvents btn73 As Button
+    Friend WithEvents btn74 As Button
+    Friend WithEvents btn75 As Button
+    Friend WithEvents btn76 As Button
+    Friend WithEvents pnl6 As Panel
+    Friend WithEvents btn61 As Button
+    Friend WithEvents btn62 As Button
+    Friend WithEvents btn63 As Button
+    Friend WithEvents btn64 As Button
+    Friend WithEvents btn65 As Button
+    Friend WithEvents btn66 As Button
+    Friend WithEvents pnl5 As Panel
+    Friend WithEvents btn51 As Button
+    Friend WithEvents btn52 As Button
+    Friend WithEvents btn53 As Button
+    Friend WithEvents btn54 As Button
+    Friend WithEvents btn55 As Button
+    Friend WithEvents btn56 As Button
+    Friend WithEvents pnl4 As Panel
+    Friend WithEvents btn41 As Button
+    Friend WithEvents btn42 As Button
+    Friend WithEvents btn43 As Button
+    Friend WithEvents btn44 As Button
+    Friend WithEvents btn45 As Button
+    Friend WithEvents btn46 As Button
+    Friend WithEvents pnl3 As Panel
+    Friend WithEvents btn31 As Button
+    Friend WithEvents btn32 As Button
+    Friend WithEvents btn33 As Button
+    Friend WithEvents btn34 As Button
+    Friend WithEvents btn35 As Button
+    Friend WithEvents btn36 As Button
+    Friend WithEvents btnPlayer1 As Button
     Friend WithEvents btnPlayer2 As Button
     Friend WithEvents btnCol1 As Button
     Friend WithEvents btnCol2 As Button
